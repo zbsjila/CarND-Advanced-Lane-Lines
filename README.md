@@ -214,7 +214,7 @@ I implemented this step in lines 87 through 96 in my code in `scripts/process_im
 
 ### 7. Test on other test images
 
-While the pipeline runs well on `test1.jpg`, I would like to see how it performs on other images in the `test_images` folder. To run `process_image_with_parameters.py` in the `scripts` folder, I used the following bash commands: 
+I added this step. While the pipeline runs well on `test3.jpg`, I would like to see how it performs on other images in the `test_images` folder. To run `process_image_with_parameters.py` in the `scripts` folder, I used the following bash commands: 
 
 ``` bash
 ls ../test_images/*.jpg | while read -r jpg; do 
@@ -224,7 +224,7 @@ ls ../test_images/*.jpg | while read -r jpg; do
 done
 ``` 
 
-The performance looks good on all images in `test_images` folder, as shown below:
+The results are shown below. For the final parameters used here, `test1` doesn't work well. At one point of tuning the parameters, I can make all test images work; however, later, to make all the frames of the video work, I changed the parameters, and rely on temporal behavior to make other frames like `test1` work. 
 
 ![img_annotated_montage](output_images/test_img_annotated_montage.png)
 
@@ -233,6 +233,8 @@ The performance looks good on all images in `test_images` folder, as shown below
 ## Pipeline (video)
 
 Here's a [link to my video result](./project_video_output.mp4)
+
+I ended up labelling the frame number of each frame as you see in the text annotationsof each frame, so whenver there is a failure I can get that frame out, add to my "test" images set, and retune the pipeline. 
 
 ---
 
