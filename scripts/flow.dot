@@ -1,0 +1,37 @@
+digraph {
+    //# goal: see dependence on single image
+
+    subgraph cluster_output {
+        img_annotated;
+    }
+
+    //# img_annotated
+    perspectiveTransform[shape="rectangle"];
+    {xy_fit; perspectiveTransform; xy_lane} -> xy_lane_fit_unwarp;
+
+    {rcurv; xoffset; img; xy_lane_fit_unwarp} -> img_annotated;
+    mask_top_down -> xy_lane -> fit_coeffs;
+
+    //# Line
+    subgraph cluster_Line {
+        fit_coeffs; xy_lane;
+    }
+
+    xy_fit -> xoffset;
+
+    //# temporal
+    {fit_coeffs; fit_coeffs_estimate} -> fit_coeffs_chosen;
+    fit_coeffs_chosen -> fit_coeffs_latest -> fit_coeffs_estimate;
+    fit_coeffs_estimate -> xy_lane;
+    fit_coeffs_estimate -> fit_coeffs; // anomaly then replace
+
+    //# plot
+
+    fit_coeffs_chosen -> {xy_fit; rcurv};
+
+    //# img_lane_fill_window_unwarped
+
+    img -> undist; 
+    {undist; perspectiveTransform} -> undist_top_down; 
+    undist_top_down -> precondition -> color_and_gradient -> mask_top_down; 
+}

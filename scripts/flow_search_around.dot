@@ -1,0 +1,15 @@
+digraph {
+    //## input
+    subgraph cluster_input {
+        binary_warped; left_fit;
+    }
+    //## search_around_poly
+
+    binary_warped -> {nonzeroy; nonzerox};
+    {nonzeroy; left_fit} -> nonzerox_left_fit;
+    {nonzerox; nonzerox_left_fit} -> left_lane_inds;
+    {nonzerox; nonzeroy; left_lane_inds} -> {leftx; lefty}; 
+
+    //## loop
+    {leftx; lefty} -> left_fit;
+}

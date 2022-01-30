@@ -1,0 +1,6 @@
+digraph {
+    // mask_th;
+    img_warped -> mask_manual;
+    {mask_manual; img_warped} -> RGB_val_grad_hist_th;
+    {img_warped; RGB_val_grad_hist_th} -> mask_th;
+}
