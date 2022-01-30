@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="/Users/bosheng_zhang/Box_Sync/bozhang_personal/learn/science_technology/self_driving_car/Udacity_self_driving_car/P2/CarND-Advanced-Lane-Lines/output_images/test1_undistort_warp_mask.png"
+   sodipodi:docname="test1_undistort_warp_mask.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 338.66666 190.49998"
+   height="190.49998mm"
+   width="338.66666mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="25"
+     inkscape:window-x="0"
+     inkscape:window-height="991"
+     inkscape:window-width="1569"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="382.65191"
+     inkscape:cx="612.89229"
+     inkscape:zoom="0.4391648"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(52.946918,-136.85762)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       id="path1159"
+       d="m 36.368731,325.44361 5.530381,-0.27653 -3.041708,-32.90576 1.382594,-29.31102 2.48867,-34.8414 4.424307,-27.92842 1.106075,-13.27291 -6.359938,0.27651 -3.871267,32.62925 -3.594748,26.82235 -0.276518,21.29197 -1.382594,19.90936 z"
+       style="fill:#ff0000;stroke:none;stroke-width:0.26458300000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path1161"
+       d="m 208.53947,324.61405 4.80144,-0.27652 0.27652,-6.35994 -4.70082,-1.93563 z"
+       style="fill:#00ff00;stroke:none;stroke-width:0.26458300000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path1163"
+       d="m 213.62089,266.08294 4.97854,-0.21646 2.05634,-2.48926 h -4.54562 z"
+       style="fill:#00ff00;stroke:none;stroke-width:0.26458300000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path1165"
+       d="m 215.78548,214.67421 4.11268,0.21646 2.70573,-3.46333 1.94813,-28.03129 0.86582,-1.94812 -4.76207,-0.43292 -1.73167,3.89624 z"
+       style="fill:#00ff00;stroke:none;stroke-width:0.26458300000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path1167"
+       d="m 224.11908,143.56781 3.57156,0.10823 2.16458,-5.95259 -3.24686,-0.10823 z"
+       style="fill:#00ff00;stroke:none;stroke-width:0.26458300000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>
